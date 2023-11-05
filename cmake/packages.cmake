@@ -59,6 +59,7 @@ find_package(catkin REQUIRED COMPONENTS
         )
 include_directories(${catkin_INCLUDE_DIRS})
 
+set(Pangolin_DIR ${PROJECT_SOURCE_DIR}/thirdparty/Pangolin/install/lib/cmake/)
 find_package(Pangolin REQUIRED)
 include_directories(${Pangolin_INCLUDE_DIRS})
 
